@@ -3,6 +3,11 @@
   background-color: #ffffff;
   text-align: center;
 }
+@media (max-width: 600px) {
+  body {
+    font-size: 16px;
+  }
+}
 h1 {
   background-color: #46b5f0;
   text-align: center;
