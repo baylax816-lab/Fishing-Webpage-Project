@@ -7,18 +7,18 @@ body {
 }
 
 header {
-  background-color: #51a8ff;
+  background-color: #000000;
   text-align: center;
 }
 
 h1 {
-  background-color: #51a8ff;
+  background-color: #000000;
   text-align: center;
 }
 
 h2 {
-  font-size: 20px;
-  text-align: center;
+  font-size: 30px;
+  text-align: start;
 }
 
 h3 {
@@ -30,8 +30,11 @@ h4 {
   font-weight: bold;
 }
 
+.white {
+  color: #ffffff;
+}
 .blue {
-  color: #003366;
+  color: #007bff;
 }
 
 img {
