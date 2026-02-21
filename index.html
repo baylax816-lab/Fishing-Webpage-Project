@@ -1,69 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>My Fishing Page</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+        crossorigin="anonymous">
+
   <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
+<body class="bg-light">
 
-  <header>
+  <header class="bg-primary text-white text-center py-4">
     <h1>My Fishing Page</h1>
     <p class="blue">
       This is a page all about the fishing reels and brands that I like!
     </p>
   </header>
 
-  <main>
+  <main class="container my-5">
 
-    <section>
+    <section class="text-center mb-5">
       <h2>My Favorite Fishing Reel</h2>
-      <img 
+      <img
         src="./img/shimano.webp"
         alt="Shimano SLX DC casting reel"
-        class="50%">
+        class="img-fluid w-50">
     </section>
 
-    <section>
+    <section class="mb-5">
       <h3 class="blue">
         Ordered List of my Favorite Reels along with an Unordered List of my Favorite Brands!
       </h3>
 
-      <div id="shape">
+      <div class="row">
 
-        <section id="reels">
-          <p id="big">Favorite Reels</p>
-          <ol>
-            <li>Shimano SLX DC casting reel</li>
-            <li>Penn Fathom Baitcast Reel</li>
-            <li>Daiwa Coastal 80</li>
-          </ol>
-        </section>
+        <div class="col-md-6 mb-4">
+          <div class="p-3 border rounded bg-white shadow-sm">
+            <h4 class="text-center">Favorite Reels</h4>
+            <ol>
+              <li>Shimano SLX DC casting reel</li>
+              <li>Penn Fathom Baitcast Reel</li>
+              <li>Daiwa Coastal 80</li>
+            </ol>
+          </div>
+        </div>
 
-        <section id="brands">
-          <p id="big">Best Brands</p>
-          <ul>
-            <li>Shimano</li>
-            <li>Penn</li>
-            <li>Daiwa</li>
-          </ul>
-        </section>
+        <div class="col-md-6 mb-4">
+          <div class="p-3 border rounded bg-white shadow-sm">
+            <h4 class="text-center">Best Brands</h4>
+            <ul>
+              <li>Shimano</li>
+              <li>Penn</li>
+              <li>Daiwa</li>
+            </ul>
+          </div>
+        </div>
 
       </div>
     </section>
 
-    <section>
+    <section class="text-center">
       <p>
-        Learn more about SLX and some of the top fishing reels 
+        Learn more about SLX and some of the top fishing reels
         <a href="https://www.bestsportsgearpicks.com/baitcaster-reels">
           here
         </a>
       </p>
 
-      <p class="button">
-        Learn more about 
-        <a href="https://fish.shimano.com/en-SG/product/reels/baitcast/a075f000032xzpjqag.html">
+      <p>
+        Learn more about
+        <a href="https://fish.shimano.com/en-SG/product/reels/baitcast/a075f000032xzpjqag.html"
+           class="btn btn-success mt-2">
           Shimano SLX DC casting reel
         </a>
       </p>
@@ -71,14 +83,12 @@
 
   </main>
 
-  <footer>
-    <nav>
-      <h4>See My Other Favorite Reels/Brands</h4>
-      <ul>
-        <li><a href="page2.html">Penn</a></li>
-        <li><a href="page2.html">Daiwa</a></li>
-      </ul>
-    </nav>
+  <footer class="bg-dark text-white text-center py-4">
+    <h4>See My Other Favorite Reels/Brands</h4>
+    <ul class="list-unstyled">
+      <li><a href="page2.html">Penn</a></li>
+      <li><a href="page2.html">Daiwa</a></li>
+    </ul>
   </footer>
 
 </body>
